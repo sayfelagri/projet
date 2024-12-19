@@ -1,0 +1,8 @@
+#include <stlib.h>
+#include <stdio.h>
+
+double demande_var(){
+       double f;
+       scanf("%lf", &f);
+       return f;
+       }

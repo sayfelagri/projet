@@ -1,0 +1,20 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+struct pos {
+       double dt;
+       douple Tmax;
+       double ** le_tab;};
+
+struct pos * calc (strcut pos * P){}
+       
+struct pos * crupes (){
+       struct pos * res;
+       res = malloc(sizeof(struct pos));
+       printf("dt= ");
+       res->dt = demande_var();
+       printf("\n");
+       printf("Tmax= ");
+       res->Tmax = demande_var();
+       
+       
